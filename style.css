@@ -133,3 +133,18 @@ a:visited {
 a:hover {
   	color: #0066ff;
 }
+
+@media (max-width: 1000px) {
+  	.information {
+    	float: none ;
+    	width: 100% ;
+  	}
+  	.cv {
+    	float: none;
+    	width: 100% ;
+    	margin-left:-5%!important;
+  	}
+   	body {
+        padding: 0
+    }
+}
