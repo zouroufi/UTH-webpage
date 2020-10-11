@@ -136,7 +136,7 @@ a:hover {
 	.information {
 		float: none ;
 		width: 100% ;
-    }
+	}
   	.cv {
 		float: none;
 		width: 100% ;
@@ -144,5 +144,5 @@ a:hover {
   	}
    	body {
 		padding: 0
-    }
+	}
 }
