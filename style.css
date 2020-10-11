@@ -137,11 +137,23 @@ a:hover {
 		float: none ;
 		width: 100% ;
 	}
+
   	.cv {
 		float: none;
 		width: 100% ;
 		margin-left:-5%!important;
   	}
+
+  	.cv h1 {
+  		text-align: center;
+		margin-top: 5%;
+		margin-bottom: 10%;
+	}
+
+	li {
+		text-align: center;
+	}
+
    	body {
 		padding: 0
 	}
