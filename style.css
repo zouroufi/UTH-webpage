@@ -1,14 +1,14 @@
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body { 
-  	font-family: Calibri;  
-  	padding-top: 10%;
-  	padding-left: 10%;
-  	padding-right: 10%;
-  	color: #7f7f7f;
-  	background-color:#f5f5ff;
+	font-family: Calibri;  
+	padding-top: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+	color: #7f7f7f;
+	background-color:#f5f5ff;
 } 
 
 h1 + p {
@@ -23,14 +23,14 @@ h1 + p {
 
 .information h2 {
 	color: #6f809a;
-   	border-bottom: 1px solid #6f809a; 
-   	line-height: 0.1em;
-  	margin: 10px 0 20px; 
+	border-bottom: 1px solid #6f809a; 
+	line-height: 0.1em;
+	margin: 10px 0 20px; 
 } 
 
 .information h2 span { 
-    background:#f5f5ff; 
-    padding:0 0.4em;
+	background:#f5f5ff; 
+	padding:0 0.4em;
 }
 
 .information p {
@@ -39,15 +39,14 @@ h1 + p {
 }
 
 .center {
-    display: block;
-    margin: auto;
-    padding-bottom: 12px;
+	display: block;
+	margin: auto;
+	padding-bottom: 12px;
 }
 
 .cv {
 	width: 77%;
 	float:left;
-
 }
 
 .cv h1 {
@@ -55,24 +54,23 @@ h1 + p {
 	font-style: italic;
 	margin: auto;
 	margin-top: 5%;
-  	margin-left: 10%;
-  	margin-bottom: 7%;
+	margin-left: 10%;
+	margin-bottom: 7%;
 }
 
 .cv h2 {
 	color: #6f809a;
-   	text-align: center;
-   	border-bottom: 1px solid #6f809a; 
-   	line-height: 0.1em;
-  	width:90%;
-  	margin: auto;
-  	margin-left: 10%;
+	text-align: center;
+	border-bottom: 1px solid #6f809a; 
+	line-height: 0.1em;
+	width:90%;
+	margin: auto;
+	margin-left: 10%;
 }
 
 .cv h2 span { 
-    background:#f5f5ff; 
-    padding:0 0.4em; 
-
+	background:#f5f5ff; 
+	padding:0 0.4em; 
 }
 
 .cv p {
@@ -93,27 +91,27 @@ h1 + p {
 }
 
 .lang {
-    position: absolute;
-    top: 10px;
-    right: 10px
+	position: absolute;
+	top: 10px;
+	right: 10px
 }
 
 .lang a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .lang a {
-    font-size: 20px;
-    color: #1c1c1c!important;
-    padding: 3px
+	font-size: 20px;
+	color: #1c1c1c!important;
+	padding: 3px
 }
 
 .lang a:hover {
-    color: gray!important;
+	color: gray!important;
 }
 
 ul {
-    padding: 0;
+	padding: 0;
 }
 
 li {
@@ -122,29 +120,29 @@ li {
 }
 
 a:link {
-  	color: #0033cc;
-    text-decoration: none;
+	color: #0033cc;
+	text-decoration: none;
 }
 
 a:visited {
-  	color: #66ccff;
+	color: #66ccff;
 }
 
 a:hover {
-  	color: #0066ff;
+	color: #0066ff;
 }
 
 @media (max-width: 1000px) {
-  	.information {
-    	float: none ;
-    	width: 100% ;
-  	}
+	.information {
+		float: none ;
+		width: 100% ;
+    }
   	.cv {
-    	float: none;
-    	width: 100% ;
-    	margin-left:-5%!important;
+		float: none;
+		width: 100% ;
+		margin-left:-5%!important;
   	}
    	body {
-        padding: 0
+		padding: 0
     }
 }
